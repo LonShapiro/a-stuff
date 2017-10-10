@@ -4,7 +4,7 @@
         <title>Hello, fiddling</title>
         <meta name="description" content="Hello, fiddling">
             <script src="https://aframe.io/releases/0.7.0/aframe.min.js"></script>
-    </head>
+            </head>
     <body>
         <h2>Trying to cast shadows on the plane surface... (not working yet)</h2>
         <a-scene fog="type: linear; far: 10; color: #FFF">
@@ -17,7 +17,7 @@
                 shadowCameraTop:20;
                 shadowCameraLeft:-20;
                 shadowCameraBottom:-20" position="-20 20 20" rotation="" scale="" visible=""></a-entity>
-<!--            <a-entity light shadow="type: directional; castShadow:true;"></a-entity>-->
+            <!--            <a-entity light shadow="type: directional; castShadow:true;"></a-entity>-->
             <a-entity
                 geometry="primitive: plane; width: 10000; height: 10000;" rotation="-90 0 0"
                 material="src: #grid; repeat: 10000 10000; transparent: true;metalness:0.6; roughness: 1.0; sphericalEnvMap: #sky;">
