@@ -7,18 +7,18 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		78A17CF81F8D574C006F41D1 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = fiddling/README.md; sourceTree = "<group>"; };
-		78A17CF91F8D574C006F41D1 /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = index.html; path = fiddling/index.html; sourceTree = "<group>"; };
-		78A17CFA1F8D574D006F41D1 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; name = LICENSE; path = fiddling/LICENSE; sourceTree = "<group>"; };
+		78EBD1A31F8D61630052796F /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		78EBD1A41F8D61640052796F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		78EBD1A51F8D61640052796F /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
 		7891C1421F8D561000AAF020 = {
 			isa = PBXGroup;
 			children = (
-				78A17CF91F8D574C006F41D1 /* index.html */,
-				78A17CFA1F8D574D006F41D1 /* LICENSE */,
-				78A17CF81F8D574C006F41D1 /* README.md */,
+				78EBD1A51F8D61640052796F /* index.html */,
+				78EBD1A31F8D61630052796F /* LICENSE */,
+				78EBD1A41F8D61640052796F /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
